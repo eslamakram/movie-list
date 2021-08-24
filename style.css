@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header{
+    position: absloute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    background-color:  #39A2DB;
+      color: #E8F0F6;
+}
+
+header h1 {
+    text-align: center;
+    justify-content: center;
+    font-style: oblique;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 50px;
+    padding: 20px;
+}
+
+.formSection{
+    width: 100%;
+    padding: 20px;
+}
+
+.legend{
+   
+    border-block-color: 1px dotted #787a7a;
+    border-radius: 5px;
+
+}
+
+
+
+.formSection label, select, .inputD{
+    width: 70%;
+    display: block;
+    font-size: large;
+    font-weight: 5px;
+}
+
+.btns{
+    display:inline;
+    gap: 5px;
+}
+#saveBtn{
+    width: 25%;
+    background-color: #71c7ec;
+    height: 70px;
+    display:inline;
+    float: left;
+    margin-right: 5px;
+
+}
+#clearBtn{
+    margin-left: 2px;
+    float: right;
+    width: 25%;
+    display:inline;
+    height: 70px;
+    background-color: #a10909;
+
+}
+
+.tableSection{
+    width: 100%;
+    padding: 20px;
+
+}
+
+.tableSection th, img{
+ column-gap: 5px;
+ column-fill: balance;
+
+}
+
+
+footer{
+    position: absloute;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #053742 ;
+      color: #E8F0F6;
+}
+
+
+footer p{
+    text-align: center;
+        justify-content: center;
+
+}

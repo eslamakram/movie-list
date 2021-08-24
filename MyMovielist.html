@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Movie List</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Movie List</h1>
+    </header>
+    <main>
+        <section class="formSection" id="formSection">
+            <fieldset>
+                <legend>New Movie</legend>
+                <form action="" id="formMovie">
+                    <label for="">Name</label>
+                    <input type="text" value="" id="movieName" class="inputD">
+
+                    <label for="">Image</label>
+                    <select name="Image" id="images" value=''>
+                        <option value="action" id="action">Action</option>
+                        <option value="adventure" id="adventure">Adventure</option>
+                        <option value="animation" id="animation">Animation</option>
+                        <option value="comedy" id="comedy">Comedy</option>
+                        <option value="detective" id="detective">Detective</option>
+                        <option value="fantasy" id="fantasy">Fantasy</option>
+                        <option value="history" id="history">History</option>
+                        <option value="horror" id="horror">Horror</option>
+                        <option value="musical" id="musical">Musical</option>
+                        <option value="pirate" id="pirate">Pirate</option>
+                        <option value="romantic" id="romantic">Romantic</option>
+                        <option value="sci-fi" id="sciMovie">SCI-FI</option>
+                        <option value="war" id="war">War</option>
+                        <option value="western" id="western">Western</option>
+                    </select>
+
+                                        <label for="">Release</label>
+                    <input type="text" value="" id="movieRelease" class="inputD" >
+
+                    <div class="btns">
+                        <input type="submit" value="Save" id="saveBtn">
+
+                        <input type="button" value="Clear LS" id="clearBtn">
+                    </div>
+                </form>
+            </fieldset>
+
+        </section>
+        <section class="tableSection" id="tableSection">
+
+        </section>
+    </main>
+    <footer>
+        <p>All right reserved 2021 &copy; ASAC</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
